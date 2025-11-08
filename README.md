@@ -53,19 +53,6 @@ This architecture ensures **data lineage, quality, and scalability**, aligning w
 
 ---
 
-## Datasets
-
-Two synthetic datasets were generated to simulate realistic business systems:
-
-| Dataset | Description | Download |
-|----------|--------------|-----------|
-| **CRM Data** | Contains customer, product, and sales transaction data | [Download CRM_Data.zip](sandbox:/mnt/data/business_output/business_data_part1.zip) |
-| **ERP Data** | Contains customer, location, and product category data | [Download ERP_Data.zip](sandbox:/mnt/data/business_output/business_data_part2.zip) |
-
-Each dataset includes a `data_dictionary.csv` file describing the columns, data types, and example values.
-
----
-
 ## Project Workflow
 
 1. **Data Ingestion (Bronze Layer)**  
@@ -91,8 +78,8 @@ Each dataset includes a `data_dictionary.csv` file describing the columns, data 
 data-warehouse-project/
 │
 ├── datasets/
-│   ├── CRM_Data.zip
-│   ├── ERP_Data.zip
+│   ├── sources_crm
+│   ├── sources_erp
 │
 ├── docs/
 │   ├── data_architecture.drawio
