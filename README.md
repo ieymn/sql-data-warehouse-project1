@@ -82,10 +82,10 @@ data-warehouse-project/
 │   ├── sources_erp
 │
 ├── docs/
-│   ├── data_architecture.drawio
-│   ├── data_flow.drawio
-│   ├── data_models.drawio
-│   ├── data_catalog.md
+│   ├── data architecture.png
+│   ├── data flow diagram.png
+│   ├── data integration model.png
+│   ├── data mart.png
 │
 ├── scripts/
 │   ├── bronze/
